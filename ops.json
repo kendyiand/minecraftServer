@@ -1,1 +1,8 @@
-[]
+[
+  {
+    "uuid": "cd6653e0-e938-3682-b879-a9b329758645",
+    "name": "eneskey",
+    "level": 1,
+    "bypassesPlayerLimit": false
+  }
+]
