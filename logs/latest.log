@@ -1,82 +1,65 @@
-[21:27:08] [ServerMain/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
-[21:27:09] [ServerMain/INFO]: Loaded 7 recipes
-[21:27:09] [Server thread/INFO]: Starting minecraft server version 1.19.4
-[21:27:09] [Server thread/INFO]: Loading properties
-[21:27:09] [Server thread/INFO]: This server is running Paper version git-Paper-538 (MC: 1.19.4) (Implementing API version 1.19.4-R0.1-SNAPSHOT) (Git: bcd8dc2)
-[21:27:09] [Server thread/INFO]: Server Ping Player Sample Count: 12
-[21:27:09] [Server thread/INFO]: Using 4 threads for Netty based IO
-[21:27:09] [Server thread/WARN]: [!] The timings profiler has been enabled but has been scheduled for removal from Paper in the future.
+[23:41:37] [ServerMain/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[23:41:38] [ServerMain/INFO]: Loaded 7 recipes
+[23:41:38] [Server thread/INFO]: Starting minecraft server version 1.19.4
+[23:41:38] [Server thread/INFO]: Loading properties
+[23:41:38] [Server thread/INFO]: This server is running Paper version git-Paper-538 (MC: 1.19.4) (Implementing API version 1.19.4-R0.1-SNAPSHOT) (Git: bcd8dc2)
+[23:41:38] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[23:41:38] [Server thread/INFO]: Using 4 threads for Netty based IO
+[23:41:38] [Server thread/WARN]: [!] The timings profiler has been enabled but has been scheduled for removal from Paper in the future.
     We recommend installing the spark profiler as a replacement: https://spark.lucko.me/
     For more information please visit: https://github.com/PaperMC/Paper/issues/8948
-[21:27:09] [Server thread/INFO]: [ChunkTaskScheduler] Chunk system is using 1 I/O threads, 2 worker threads, and gen parallelism of 2 threads
-[21:27:10] [Server thread/INFO]: Default game type: SURVIVAL
-[21:27:10] [Server thread/INFO]: Generating keypair
-[21:27:10] [Server thread/INFO]: Starting Minecraft server on *:25565
-[21:27:10] [Server thread/INFO]: Using epoll channel type
-[21:27:10] [Server thread/INFO]: Paper: Using libdeflate (Linux x86_64) compression from Velocity.
-[21:27:10] [Server thread/INFO]: Paper: Using OpenSSL 3.0.x (Linux x86_64) cipher from Velocity.
-[21:27:10] [Server thread/INFO]: [WorldEdit] Loading server plugin WorldEdit v7.2.14+6360-094b734
-[21:27:11] [Server thread/INFO]: Got request to register class com.sk89q.worldedit.bukkit.BukkitServerInterface with WorldEdit [com.sk89q.worldedit.extension.platform.PlatformManager@4528eef]
-[21:27:11] [Server thread/INFO]: [myPlug] Loading server plugin myPlug v1.0-SNAPSHOT
-[21:27:11] [Server thread/INFO]: [WorldGuard] Loading server plugin WorldGuard v7.0.7+216b061
-[21:27:11] [Server thread/INFO]: [PlugMan] Loading server plugin PlugMan v2.1.7
-[21:27:11] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
-[21:27:11] [Server thread/INFO]: [WorldEdit] Enabling WorldEdit v7.2.14+6360-094b734
-[21:27:11] [Server thread/INFO]: Registering commands with com.sk89q.worldedit.bukkit.BukkitServerInterface
-[21:27:11] [Server thread/INFO]: WEPIF: Using the Bukkit Permissions API.
-[21:27:11] [Server thread/INFO]: Using com.sk89q.worldedit.bukkit.adapter.impl.v1_19_R3.PaperweightAdapter as the Bukkit adapter
-[21:27:12] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
-[21:27:12] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
-[21:27:12] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
-[21:27:12] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
-[21:27:12] [Server thread/INFO]: Preparing level "world"
-[21:27:12] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
-[21:27:12] [Server thread/INFO]: Time elapsed: 100 ms
-[21:27:12] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
-[21:27:12] [Server thread/INFO]: Time elapsed: 36 ms
-[21:27:12] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
-[21:27:12] [Server thread/INFO]: Time elapsed: 19 ms
-[21:27:12] [Server thread/INFO]: [myPlug] Enabling myPlug v1.0-SNAPSHOT
-[21:27:12] [Server thread/INFO]: [WorldGuard] Enabling WorldGuard v7.0.7+216b061
-[21:27:13] [Server thread/INFO]: [WorldGuard] Default configuration file written: config.yml
-[21:27:13] [Server thread/INFO]: [WorldGuard] Default configuration file written: config_world.yml
-[21:27:13] [Server thread/INFO]: [WorldGuard] Default configuration file written: blacklist.txt
-[21:27:13] [Server thread/INFO]: [WorldGuard] (world) TNT ignition is PERMITTED.
-[21:27:13] [Server thread/INFO]: [WorldGuard] (world) Lighters are PERMITTED.
-[21:27:13] [Server thread/INFO]: [WorldGuard] (world) Lava fire is PERMITTED.
-[21:27:13] [Server thread/INFO]: [WorldGuard] (world) Fire spread is UNRESTRICTED.
-[21:27:13] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'world'
-[21:27:13] [Server thread/INFO]: [WorldGuard] Default configuration file written: config_world.yml
-[21:27:13] [Server thread/INFO]: [WorldGuard] Default configuration file written: blacklist.txt
-[21:27:13] [Server thread/INFO]: [WorldGuard] (world_nether) TNT ignition is PERMITTED.
-[21:27:13] [Server thread/INFO]: [WorldGuard] (world_nether) Lighters are PERMITTED.
-[21:27:13] [Server thread/INFO]: [WorldGuard] (world_nether) Lava fire is PERMITTED.
-[21:27:13] [Server thread/INFO]: [WorldGuard] (world_nether) Fire spread is UNRESTRICTED.
-[21:27:13] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'world_nether'
-[21:27:13] [Server thread/INFO]: [WorldGuard] Default configuration file written: config_world.yml
-[21:27:13] [Server thread/INFO]: [WorldGuard] Default configuration file written: blacklist.txt
-[21:27:13] [Server thread/INFO]: [WorldGuard] (world_the_end) TNT ignition is PERMITTED.
-[21:27:13] [Server thread/INFO]: [WorldGuard] (world_the_end) Lighters are PERMITTED.
-[21:27:13] [Server thread/INFO]: [WorldGuard] (world_the_end) Lava fire is PERMITTED.
-[21:27:13] [Server thread/INFO]: [WorldGuard] (world_the_end) Fire spread is UNRESTRICTED.
-[21:27:13] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'world_the_end'
-[21:27:13] [Server thread/INFO]: [WorldGuard] Loading region data...
-[21:27:13] [Server thread/INFO]: [WorldGuard] Unloading and saving region data that is currently loaded...
-[21:27:13] [Server thread/INFO]: [WorldGuard] Loading region data for loaded worlds...
-[21:27:13] [Server thread/INFO]: [WorldGuard] Loading region data...
-[21:27:13] [Server thread/INFO]: [WorldGuard] Regions saved after UUID migration! This won't happen again unless you change the relevant configuration option in WorldGuard's config.
-[21:27:14] [Server thread/INFO]: [PlugMan] Enabling PlugMan v2.1.7
-[21:27:14] [Server thread/INFO]: Running delayed init tasks
-[21:27:14] [Server thread/INFO]: Done (4.585s)! For help, type "help"
-[21:27:14] [Server thread/INFO]: Timings Reset
-[21:27:19] [User Authenticator #0/INFO]: UUID of player eneskey is cd6653e0-e938-3682-b879-a9b329758645
-[21:27:19] [Server thread/INFO]: eneskey joined the game
-[21:27:19] [Server thread/INFO]: eneskey[/192.168.1.5:47326] logged in with entity id 110 at ([world]-281.9160877029394, 95.71299174624045, -22.57315388963716)
-[21:27:26] [Server thread/INFO]: eneskey issued server command: /gamemode creative
-[21:27:26] [Server thread/INFO]: [eneskey: Set own game mode to Creative Mode]
-[21:27:36] [Server thread/INFO]: eneskey issued server command: //wand
-[21:27:45] [Server thread/INFO]: eneskey issued server command: /rg claim nske
-[21:27:59] [Server thread/INFO]: eneskey issued server command: /rg remove nske
-[21:28:13] [WorldGuard Region I/O/INFO]: [WorldGuard] Region data changes made in 'world' have been background saved
-[21:28:34] [Server thread/INFO]: eneskey lost connection: Disconnected
-[21:28:34] [Server thread/INFO]: eneskey left the game
+[23:41:38] [Server thread/INFO]: [ChunkTaskScheduler] Chunk system is using 1 I/O threads, 2 worker threads, and gen parallelism of 2 threads
+[23:41:38] [Server thread/INFO]: Default game type: SURVIVAL
+[23:41:38] [Server thread/INFO]: Generating keypair
+[23:41:38] [Server thread/INFO]: Starting Minecraft server on *:25565
+[23:41:38] [Server thread/INFO]: Using epoll channel type
+[23:41:38] [Server thread/INFO]: Paper: Using libdeflate (Linux x86_64) compression from Velocity.
+[23:41:38] [Server thread/INFO]: Paper: Using OpenSSL 3.0.x (Linux x86_64) cipher from Velocity.
+[23:41:39] [Server thread/INFO]: [WorldEdit] Loading server plugin WorldEdit v7.2.14+6360-094b734
+[23:41:39] [Server thread/INFO]: Got request to register class com.sk89q.worldedit.bukkit.BukkitServerInterface with WorldEdit [com.sk89q.worldedit.extension.platform.PlatformManager@3ab0ec6b]
+[23:41:39] [Server thread/INFO]: [myPlug] Loading server plugin myPlug v1.0-SNAPSHOT
+[23:41:39] [Server thread/INFO]: [WorldGuard] Loading server plugin WorldGuard v7.0.7+216b061
+[23:41:39] [Server thread/INFO]: [PlugMan] Loading server plugin PlugMan v2.1.7
+[23:41:39] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[23:41:39] [Server thread/INFO]: [WorldEdit] Enabling WorldEdit v7.2.14+6360-094b734
+[23:41:39] [Server thread/INFO]: Registering commands with com.sk89q.worldedit.bukkit.BukkitServerInterface
+[23:41:39] [Server thread/INFO]: WEPIF: Using the Bukkit Permissions API.
+[23:41:39] [Server thread/INFO]: Using com.sk89q.worldedit.bukkit.adapter.impl.v1_19_R3.PaperweightAdapter as the Bukkit adapter
+[23:41:40] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[23:41:40] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[23:41:40] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[23:41:40] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[23:41:40] [Server thread/INFO]: Preparing level "world"
+[23:41:41] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[23:41:41] [Server thread/INFO]: Time elapsed: 78 ms
+[23:41:41] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
+[23:41:41] [Server thread/INFO]: Time elapsed: 27 ms
+[23:41:41] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
+[23:41:41] [Server thread/INFO]: Time elapsed: 26 ms
+[23:41:41] [Server thread/INFO]: [myPlug] Enabling myPlug v1.0-SNAPSHOT
+[23:41:41] [Server thread/INFO]: [WorldGuard] Enabling WorldGuard v7.0.7+216b061
+[23:41:41] [Server thread/INFO]: [WorldGuard] (world) TNT ignition is PERMITTED.
+[23:41:41] [Server thread/INFO]: [WorldGuard] (world) Lighters are PERMITTED.
+[23:41:41] [Server thread/INFO]: [WorldGuard] (world) Lava fire is PERMITTED.
+[23:41:41] [Server thread/INFO]: [WorldGuard] (world) Fire spread is UNRESTRICTED.
+[23:41:41] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'world'
+[23:41:41] [Server thread/INFO]: [WorldGuard] (world_nether) TNT ignition is PERMITTED.
+[23:41:41] [Server thread/INFO]: [WorldGuard] (world_nether) Lighters are PERMITTED.
+[23:41:41] [Server thread/INFO]: [WorldGuard] (world_nether) Lava fire is PERMITTED.
+[23:41:41] [Server thread/INFO]: [WorldGuard] (world_nether) Fire spread is UNRESTRICTED.
+[23:41:41] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'world_nether'
+[23:41:41] [Server thread/INFO]: [WorldGuard] (world_the_end) TNT ignition is PERMITTED.
+[23:41:41] [Server thread/INFO]: [WorldGuard] (world_the_end) Lighters are PERMITTED.
+[23:41:41] [Server thread/INFO]: [WorldGuard] (world_the_end) Lava fire is PERMITTED.
+[23:41:41] [Server thread/INFO]: [WorldGuard] (world_the_end) Fire spread is UNRESTRICTED.
+[23:41:41] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'world_the_end'
+[23:41:41] [Server thread/INFO]: [WorldGuard] Loading region data...
+[23:41:42] [Server thread/INFO]: [PlugMan] Enabling PlugMan v2.1.7
+[23:41:42] [Server thread/INFO]: Running delayed init tasks
+[23:41:42] [Server thread/INFO]: Done (3.869s)! For help, type "help"
+[23:41:42] [Server thread/INFO]: Timings Reset
+[23:41:42] [User Authenticator #0/INFO]: UUID of player eneskey is cd6653e0-e938-3682-b879-a9b329758645
+[23:41:43] [Server thread/INFO]: eneskey joined the game
+[23:41:43] [Server thread/INFO]: eneskey[/192.168.1.5:54498] logged in with entity id 2 at ([world]-16.244186266326118, 133.0, -99.32158163381673)
+[23:41:47] [Server thread/INFO]: eneskey issued server command: /gamemode creative
+[23:41:47] [Server thread/INFO]: [eneskey: Set own game mode to Creative Mode]

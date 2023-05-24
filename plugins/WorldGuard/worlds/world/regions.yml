@@ -9,4 +9,22 @@
 #
 # REMEMBER TO KEEP PERIODICAL BACKUPS.
 #
-regions: {}
+regions:
+    spawn:
+        min: {x: -27, y: 129, z: -120}
+        max: {x: -8, y: 143, z: -88}
+        members: {}
+        flags: {}
+        owners:
+            unique-ids: [cd6653e0-e938-3682-b879-a9b329758645]
+        type: cuboid
+        priority: 0
+    farmcave:
+        min: {x: -14, y: 132, z: -107}
+        max: {x: -11, y: 134, z: -102}
+        members: {}
+        flags: {}
+        owners:
+            unique-ids: [cd6653e0-e938-3682-b879-a9b329758645]
+        type: cuboid
+        priority: 0
